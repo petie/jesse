@@ -13,7 +13,7 @@ before_install:
         - sudo make install
 # command to install dependencies
 install:
-  - git clone https://github.com/jesse-ai/jesse jesse
+  - git clone https://github.com/petie/jesse jesse
   - cd jesse
   - pip install -r requirements.txt
   
